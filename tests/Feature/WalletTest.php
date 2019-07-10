@@ -11,6 +11,9 @@ use App\Transfer;
 
 class WalletTest extends TestCase
 {
+
+//para vaciar bd en cada prueba
+  use RefreshDatabase;
     /**
      * A basic feature test example.
      *
